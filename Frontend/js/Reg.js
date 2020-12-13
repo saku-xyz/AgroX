@@ -35,7 +35,7 @@ function loginFarmer() {
     });
     
     var config = {
-        method: 'get',
+        method: 'post',
         url: 'http://127.0.0.1:8081/v1/farmer/login',
         headers: {
             'Content-Type': 'application/json'
