@@ -62,7 +62,7 @@ function AddNew(){
     axios(config)
         .then(function (response) {
             document.getElementById('SAVE').removeAttribute('hidden');
-            document.getElementById('IMAGE').action = 'http://127.0.0.1:8081/v1/advertisement/'+response.data;
+            document.getElementById('IMAGE').action = 'http://127.0.0.1:8081/v1/advertisement/uploadImages/'+response.data;
         })
 }
 
