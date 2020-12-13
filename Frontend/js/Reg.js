@@ -21,7 +21,7 @@ function addFarmer() {
     axios(config)
         .then(function (response) {
         
-            window.location.replace("./index.html");
+            window.location.replace("./my-account.html");
         })
         .catch(function (error) {
             console.log(error);
@@ -49,8 +49,8 @@ function loginFarmer() {
         .then(function (response) {
             if (response.data === true){
                 Cookies.set('Login','Logged')
-
-                window.location.replace("./index.html");
+                //Cookies.set('ID',);
+                window.location.replace("./my-account.html");
             } else {
                 console.log(response);
             }
