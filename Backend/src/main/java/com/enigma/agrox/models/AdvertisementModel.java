@@ -1,6 +1,8 @@
 package com.enigma.agrox.models;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
@@ -10,6 +12,7 @@ import javax.persistence.Table;
 @Table(name = "advertisement")
 public class AdvertisementModel {
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int ad_id;
 	@ManyToOne
 	@JoinColumn(name = "farmer_id")
@@ -68,7 +71,7 @@ public class AdvertisementModel {
 		return reviewed;
 	}
 	public void setReviewed(boolean ad_reviewed) {
-		this.reviewed = reviewed;
+		this.reviewed = ad_reviewed;
 	}
 	
 	

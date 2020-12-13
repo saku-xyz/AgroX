@@ -1,6 +1,11 @@
 package com.enigma.agrox.validators;
 
+import org.springframework.util.StringUtils;
+import org.springframework.web.multipart.MultipartFile;
+
 import com.enigma.agrox.exceptions.ValidationException;
+
+
 
 public class AdvertisementValidator {
 	public static void validateTitle(String title) {
@@ -34,5 +39,19 @@ public class AdvertisementValidator {
 	public static void validateFarmerId(int farmerid) {
 		if (farmerid <= 0)
 			throw new ValidationException("Invalid Farmer");
+	}
+	
+	public static void validateImageExt(MultipartFile filesList) {
+
+		String fileExt = StringUtils.cleanPath(filesList.getOriginalFilename()).split("\\.")[1];
+	       
+        if(!("jpg".equals(fileExt))) {
+               throw new ValidationException("Invalid image type");
+           }
+       }
+		    
+	public static void ValidateAdId(String AdId) {
+		if (AdId == null || AdId.equals(""))
+			throw new ValidationException("Invalid Ad Id");	
 	}
 }

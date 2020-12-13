@@ -9,7 +9,15 @@ public class AdvertisementDto {
 	private float adPrice;
 	private String adType;
 	private boolean adReviewed;
+	private String imgUrl;
 	
+	
+	public String getImgUrl() {
+		return imgUrl;
+	}
+	public void setImgUrl(String imgUrl) {
+		this.imgUrl = imgUrl;
+	}
 	public int getAdId() {
 		return adId;
 	}

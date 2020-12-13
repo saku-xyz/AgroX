@@ -35,7 +35,7 @@ function loginFarmer() {
     });
     
     var config = {
-        method: 'post',
+        method: 'get',
         url: 'http://127.0.0.1:8081/v1/farmer/login',
         headers: {
             'Content-Type': 'application/json'
@@ -48,6 +48,8 @@ function loginFarmer() {
     axios(config)
         .then(function (response) {
             if (response.data === true){
+                Cookies.set('Login','Logged')
+
                 window.location.replace("./index.html");
             } else {
                 console.log(response);
@@ -80,7 +82,7 @@ function getProducts(){
                             <div class="type-lb">
                                 <p class="sale">Sale</p>
                             </div>
-                            <img src="images/gallery-img-0`+(Math.floor(Math.random() * 9)+1).toString()+`.jpg" class="img-fluid" alt="Image">
+                            <img src="http://127.0.0.1:8081/v1/advertisement/img/`+element['adId']+`.png" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>

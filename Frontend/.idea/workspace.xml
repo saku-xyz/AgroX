@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="23e33d15-30e0-455f-a443-ae8422886bde" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/AgroXBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/AgroXBackendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/controllers/AdvertisementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/controllers/AdvertisementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/controllers/FarmerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/controllers/FarmerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/controllers/SellerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/controllers/SellerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/controllers/SystemAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/controllers/SystemAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/dtos/AdvertisementDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/dtos/AdvertisementDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/dtos/ErrorResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/dtos/ErrorResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/dtos/FarmerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/dtos/FarmerDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/dtos/SellerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/dtos/SellerDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/dtos/SystemAdminDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/dtos/SystemAdminDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/exceptions/DatabaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/exceptions/DatabaseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/exceptions/ExceptionHandlerControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/exceptions/ExceptionHandlerControllerAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/exceptions/FileStorageException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/exceptions/FileStorageException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/exceptions/InvalidParameterException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/exceptions/InvalidParameterException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/exceptions/MyFileNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/exceptions/MyFileNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/exceptions/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/exceptions/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/exceptions/ValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/exceptions/ValidationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/models/AdvertisementModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/models/AdvertisementModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/models/CartModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/models/CartModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/models/FarmerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/models/FarmerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/models/SellerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/models/SellerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/models/SystemAdminModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/models/SystemAdminModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/repos/AdvertisementRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/repos/AdvertisementRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/repos/FarmerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/repos/FarmerRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/repos/SellerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/repos/SellerRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/repos/SystemAdminRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/repos/SystemAdminRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/validators/AdvertisementValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/validators/AdvertisementValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/validators/FarmerValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/validators/FarmerValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/validators/SellerValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/validators/SellerValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/validators/SystemAdminValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/com/enigma/agrox/validators/SystemAdminValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Reg.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Reg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1lanc58xu93L3DBTbFoYt8qwK6W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23e33d15-30e0-455f-a443-ae8422886bde" name="Default Changelist" comment="" />
+      <created>1607844148155</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607844148155</updated>
+      <workItem from="1607844149736" duration="1728000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

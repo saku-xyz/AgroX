@@ -12,7 +12,6 @@ import com.enigma.agrox.dtos.SellerDto;
 import com.enigma.agrox.exceptions.DatabaseException;
 import com.enigma.agrox.exceptions.ResourceNotFoundException;
 import com.enigma.agrox.exceptions.ValidationException;
-import com.enigma.agrox.models.FarmerModel;
 import com.enigma.agrox.models.SellerModel;
 import com.enigma.agrox.repos.SellerRepo;
 import com.enigma.agrox.validators.SellerValidator;
